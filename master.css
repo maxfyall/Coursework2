@@ -7,6 +7,11 @@ nav img{
   max-height: 50px;
 }
 
+nav a{
+  text-align: center;
+  color: white;
+}
+
 main img{
   float: left;
   max-width:500px;
