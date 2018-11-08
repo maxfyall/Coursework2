@@ -2,18 +2,13 @@ body{
   background-color: #1BE7FF;
 }
 
-nav img{
-  max-width: 50px;
-  max-height: 50px;
-}
-
-nav a{
-  text-align: center;
-  color: white;
-}
-
 main img{
   float: left;
   max-width:500px;
   max-height:350px;
+}
+
+nav img{
+  max-width: 50px;
+  max-height: 50px;
 }
