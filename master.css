@@ -1,16 +1,11 @@
 body{
-  background-color: #1BE7FF;
+  background-color: #F3F7F0;
 }
 
-nav{
-  margin-bottom: 25px;
+main h1{
+  color: white;
 }
 
-main img{
-  float: left;
-  max-width:300px;
-  max-height:300px;
-}
 
 blockquote{
   margin-top: 30px;
@@ -23,4 +18,8 @@ nav img{
 
 footer{
   margin-top: 25px;
+}
+
+.space{
+  padding-bottom: 25px;
 }
