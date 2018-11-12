@@ -2,6 +2,10 @@ body{
   background-color: #F3F7F0;
 }
 
+.jumbotron{
+  background-image: url("grey picture.jpeg");
+}
+
 main h1{
   color: white;
 }
