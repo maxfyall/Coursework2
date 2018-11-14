@@ -10,9 +10,16 @@ main h1{
   color: white;
 }
 
+.padding{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
 
 blockquote{
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 footer{
