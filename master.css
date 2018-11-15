@@ -6,7 +6,7 @@ body{
   background-image: url("https://picsum.photos/g/1400/400/?random");
 }
 
-main h1{
+main{
   color: white;
 }
 
@@ -20,6 +20,7 @@ main h1{
 blockquote{
   margin-top: 30px;
   margin-bottom: 30px;
+  color:black;
 }
 
 footer{
