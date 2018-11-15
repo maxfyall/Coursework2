@@ -10,12 +10,6 @@ main{
   color: white;
 }
 
-.padding{
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-}
-
 
 blockquote{
   margin-top: 30px;
@@ -29,4 +23,10 @@ footer{
 
 .space{
   padding-bottom: 25px;
+}
+
+.padding{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
 }
