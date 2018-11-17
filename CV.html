@@ -3,18 +3,22 @@
 
 <head>
   <meta charset="utf-8">
+  <!-- Title of Page -->
   <title>My CV</title>
 
+  <!-- Link to css file to reset all css of base page -->
   <link rel="stylesheet" href="reset.css">
 
+  <!-- Responsive Meta Tag, implemented from bootstrap documentation -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Link to stylesheet for bootstrap framework, implemented from bootstrap documentation, all bootstrap documentation implemented has been edited to show what I want -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
-
+  <!-- Link to my css style sheet -->
   <link rel="stylesheet" href="master.css">
-  
+
+  <!-- Bootstrap scripts to allow bootstrap elements to work, implemented from bootstrap documentation -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -22,57 +26,74 @@
 </head>
 
 <body>
+  <!-- Header and section tags used to make code more readable -->
   <header>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <div class="navbar-brand mb-0 h1">
-          <a class="navbar-brand">Mr Max Iain Fyall</a>
-        </div>
-
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="CV.html">My CV</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Projects.html">My Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Contact.html">Contact Details</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-    </nav>
-  </header>
-
-  <main>
+    <!-- NavBar of Webpage implemented from bootstrap documentation, edited to suit my webpage-->
     <section>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <div class="navbar-brand mb-0 h1">
+            <a class="navbar-brand">Mr Max Iain Fyall</a>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <!-- Takes user to Homepage once Home is clicked in NavBar -->
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <!-- Takes user to CV page when My CV is clicked in NavBar -->
+                <a class="nav-link" href="CV.html">My CV</a>
+              </li>
+              <li class="nav-item">
+                <!-- Takes user to Projects Page when My Projects is clicked in NavBar-->
+                <a class="nav-link" href="Projects.html">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <!-- Takes user to Contact Details page when clicked -->
+                <a class="nav-link" href="Contact.html">Contact Details</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+    </section>
+
+
+    <!-- Section tag used to improve readablilty -->
+    <section>
+      <!-- jumbotron implemented from bootstrap documentation -->
       <div class="jumbotron jumbotron-fluid">
+        <!-- Container, row and column class implemented from bootstrap grid system documentation -->
         <div class="container">
           <h1 class="display-4 text-center font-weight-bold">WELCOME TO THE CV PAGE</h1>
-          <p class="lead text-white text-center">The Page Where You Can View My CV</p>
+          <p class="lead text-center">The Page Where You Can View My CV</p>
         </div>
       </div>
     </section>
+    <!-- End of header -->
+  </header>
+
+  <!-- Main and section tags used to improve readablilty -->
+  <main>
 
     <section>
-
+      <!-- bg-dark used to give black darker barkground to certain elements -->
       <div class="container bg-dark" style="margin-top:25px;">
         <div class="row">
+          <!-- Padding class, creates space to make page more appealing -->
           <div class="padding">
+
+            <!-- Media class and media body implemented from Bootstrap documentation -->
             <div class="media">
               <img class="align-self-center mr-3" src="home picture.jpeg" alt="Generic placeholder image" style="max-width:300px;
-                max-height:300px;">
+                max-height:300px">
               <div class="media-body">
                 <h3 class="mt-0" style="padding-top:20px;">Mr Max Iain Fyall</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -95,105 +116,126 @@
 
       <div class="container bg-dark">
 
-<div class="padding">
+        <div class="padding">
+          <!-- Accordian class implemented from bootstrap documentation, used for collapsing content -->
           <div class="accordion" id="accordionExample">
+
+            <!-- heading on top of collapsable bar -->
             <h2>Personal Statement</h2>
-          <div class="card bg-dark">
-            <div class="card-header" id="headingOne">
-              <h5 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Click to View/Collapse
-                </button>
-              </h5>
-            </div>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Click to View/Collapse
+                  </button>
+                </h5>
+              </div>
 
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <!-- Collapsable content, implemented from bootstrap documentation-->
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <h2>Work Experiance</h2>
-          <div class="card bg-dark">
-            <div class="card-header" id="headingTwo">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Click to View/Collapse
-                </button>
-              </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <!-- Second Collapsable item with heading-->
+            <h2>Work Experiance</h2>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Click to View/Collapse
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <h2>My Grades</h2>
-          <div class="card bg-dark">
-            <div class="card-header" id="headingThree">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Click to View/Collapse
-                </button>
-              </h5>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-              <div class="card-body">
-                <ul class="list-group text-black">
-                  <div class="blackText">
-            <li class="list-group-item">Higher Maths: A</li>
-            <li class="list-group-item">Higher Human Biology: A</li>
-            <li class="list-group-item">Higher Computing: A</li>
-            <li class="list-group-item">Higher Administration and IT: A</li>
-            <li class="list-group-item">Higher English: B</li>
-            <li class="list-group-item">Higher P.E: B</li>
-            <li class="list-group-item">Higher Modern Studies: B</li>
-          </div>
+            <!-- Third Collapsable item with heading -->
+            <h2>My Grades</h2>
+            <div class="card bg-dark">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Click to View/Collapse
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  <!-- List group used for better organisation of grades, implemented from bootstrap documentation -->
+                  <ul class="list-group text-black">
+                    <div class="blackText">
+                      <li class="list-group-item">Higher Maths: A</li>
+                      <li class="list-group-item">Higher Human Biology: A</li>
+                      <li class="list-group-item">Higher Computing: A</li>
+                      <li class="list-group-item">Higher Administration and IT: A</li>
+                      <li class="list-group-item">Higher English: B</li>
+                      <li class="list-group-item">Higher P.E: B</li>
+                      <li class="list-group-item">Higher Modern Studies: B</li>
+                    </div>
 
-          </ul>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
 
 
     </section>
 
     <section>
+      <!-- hr tag to create line across webpage -->
       <hr class="my-4">
 
       <div class="container">
+
+        <!-- blockquote with button implemented from bootstrap documentation -->
         <blockquote class="blockquote text-center">
-          <p class="mb-0 font-weight-bold">If you want to get in contact with me please visit the Contact Details page</p>
-          <a href="Contact.html" class="btn btn-primary" style="margin-top: 10px">Take Me There!</a>
+
+          <div class="blackText">
+            <a class="mb-0 font-weight-bold">If you want to get in contact with me please visit the Contact Details page</a>
+          </div>
+
+          <!-- a tag turned into button to take user to contact details page-->
+          <div class="font">
+            <a href="Contact.html" class="btn btn-primary" style="margin-top: 10px">Take Me There!</a>
+          </div>
 
         </blockquote>
         <hr class="my-4">
 
       </div>
 
-
     </section>
 
+    <!-- End of main section -->
   </main>
 
+  <!-- Start of footer -->
   <footer>
+    <!-- Space class created to push footer up from bottom of page -->
     <div class="space">
       <div class="container">
         <div class="row">
+          <!-- Footer contains links to my social media pages -->
           <div class="navbar-brand col mb-0 h3" style="padding-top:10px;">
 
             <a>Follow me on Social Media</a>
@@ -201,17 +243,20 @@
 
           <div class="col-md-auto">
 
-            <a href="https://www.facebook.com/"><img src="facebook-brands.jpg" alt="https://picsum.photos/500/600/?random" class="img-thumbnail bg-dark" style="max-width: 50px; max-height: 50px;">
+            <!-- Temporary links have been put in place just to show the links work -->
+            <a href="https://www.facebook.com/"><img src="facebook-brands.jpg" alt="https://picsum.photos/500/600/?random" class="img-thumbnail bg-dark" style="max-width: 50px; max-height: 50px;"></a>
 
-              <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twitter-square-brands.jpg" alt="https://picsum.photos/500/600/?random" class="img-thumbnail bg-dark" style="max-width: 50px; max-height: 50px;">
+            <!-- I don't have accounts for some social networks like twitter, However I implemented it just to show I can implement link to a twitter page if i needed to-->
+            <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twitter-square-brands.jpg" alt="https://picsum.photos/500/600/?random" class="img-thumbnail bg-dark" style="max-width: 50px; max-height: 50px;"></a>
 
-                <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><img src="snapchat-square-brands.jpg" alt="https://picsum.photos/500/600/?random" class="img-thumbnail bg-dark"
-                    style="max-width: 50px; max-height: 50px;">
+            <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><img src="snapchat-square-brands.jpg" alt="https://picsum.photos/500/600/?random" class="img-thumbnail bg-dark"
+                style="max-width: 50px; max-height: 50px;"></a>
 
           </div>
         </div>
       </div>
     </div>
+    <!-- End of footer -->
   </footer>
 
 </body>
