@@ -1,46 +1,53 @@
+/* imported fonts from google fonts */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
 
+/* Set background colour to what I have chosen */
 body{
   background-color: #F3F7F0;
 }
 
+/* Changing font and color for headings */
 h1, h2, h3, h5{
   font-family: 'Roboto',sans-serif;
   color: white;
 }
 
+/* Changing font and colour for tags that are not headings or in the Navbar or footer */
 p, button, .font{
   font-family: 'Playfair Display',sans-serif;
   color: white;
 }
 
+/* Changes anything in blackText class to black and to Playfair display font */
 .blackText{
   color:black;
   font-family: 'Playfair Display',sans-serif;
 }
 
+/* Sets background of jumbotron in header to a random greyscaled image */
 .jumbotron{
   background-image: url("https://picsum.photos/g/1400/400/?random");
 }
 
+/* Gives h2 tags on CV page more margin at the top to give them more space */
 h2{
   margin-top: 15px;
 }
 
+/* Adds more space to blockquotes to seperate them from rest of content, also keeps the colour of the text black */
 blockquote{
   margin-top: 30px;
   margin-bottom: 30px;
   color:black;
 }
 
-footer{
+/* Adds more margin to the footer to create more seapartion from the rest of the page */
+.space{
+  padding-bottom: 25px;
   margin-top: 25px;
 }
 
-.space{
-  padding-bottom: 25px;
-}
-
+/* Pushes content to create more space around the edges of containers. Makes text look better */
 .padding{
   padding-left: 20px;
   padding-right: 20px;
