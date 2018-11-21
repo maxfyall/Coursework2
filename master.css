@@ -7,13 +7,13 @@ body{
 }
 
 /* Changing font and color for headings */
-h1, h2, h3, h5, a{
+h1, h2, h3, h5{
   font-family: 'Roboto',sans-serif;
   color: white;
 }
 
 /* Changing font and colour for tags that are not headings or in the Navbar or footer */
-p, button, .font{
+p, button, .font, a{
   font-family: 'Playfair Display',sans-serif;
   color: white;
 }
